@@ -1,0 +1,12 @@
+{
+    "SLACK_URL"   : "https://hooks.slack.com/services/yourwebhookurl",
+    "SLACK_CHANNEL" : "veba",
+    "VC" : "vc01.lab.local",
+    "VC_USERNAME" : "veba@lab.local",
+    "VC_PASSWORD" : "VMware1!",
+    "VC_ALARM_NAME" : "Datastore usage on disk",
+    "DATASTORE_NAMES" : ["david-veba-01","david-veba-02"],
+    "SUBJECT" : "Datastore Notification Alarm",
+    "PURE_USERNAME" : "pureuser",
+    "PURE_PASSWORD" : "SomethingSecure"
+}

@@ -1,0 +1,16 @@
+provider:
+  name: openfaas
+  gateway: https://veba.lab.local
+functions:
+  veba-powercli-increaseds-pure:
+    lang: powercli
+    handler: ./handler
+    image: {yourimagehere}:latest
+    environment:
+      write_debug: true
+      read_debug: true
+      function_debug: true
+    secrets:
+      - vc-ds-config
+    annotations:
+      topic: AlarmStatusChangedEvent

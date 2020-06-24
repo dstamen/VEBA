@@ -1,1 +1,1 @@
-# VEBA
+# Examples for the VMware Event Broker Appliance (VEBA)
